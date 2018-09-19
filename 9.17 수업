@@ -1,0 +1,25 @@
+#9.17일 강의
+
+##클로져
+
+함수가 정의된 환경을 말한다.
+
+PYTHON/CLOSURE
+		module_a.py
+		module_b.py
+		
+파이썬 명령어를실행하면 루트폴더가 된다.
+
+touch (파일명) 하면 새파일이 그냥 생긴다
+
+ 파이선 3은 무조건 패키지 폴더로 인식한다
+ 
+ 패키지안에서  init 폴더에 import ~해도 루트를 기준으로 가져온다.
+ 
+ 따라서 from . 을 꼭 붙여줘야함
+ 
+ 그리고 루트파일에 function.game.명령어 식으로 표현해야함
+ 
+ 혹은 루트파일에 import functions대신 from functions import game이런식으로 표현해도된다. (파일이 많아지면 비효율적)
+ 
+ 

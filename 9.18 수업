@@ -1,0 +1,11 @@
+같은 이름의 import는 앞에꺼가 무시된다.
+from ~ import 중복 as 새이름, ....
+from funcitons import game
+
+9.18 일 숙제
+ 
+ 도서 관리 프로그램을 만들어보자
+ 
+ 인스턴스 목록
+ 
+ 다형성 동적 바인딩도 한번 확인

@@ -1,0 +1,83 @@
+pyenv 설치
+curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+
+vim 설치
+sudo apt-get install vim
+
+pyenv 설정
+vim ~/.zshrc
+
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+파이썬 설치 전 필요 패키지
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
+libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
+xz-utils tk-dev libffi-dev liblzma-dev
+
+파이썬 설치
+pyenv install 3.6.4
+
+파이선 버전 선택
+pyenv global 3.6.6
+
+pyenv versions 해서 이동한것을 확인
+
+변경을하면 새창을 여는것이 좋다.
+
+프로젝트별로 사용하는 파이썬 버전/가상환경이 따로 존재
+
+pyenv virtualenv 3.6.6 fc-python / fc-python이름의 가상 환경을 만듬
+
+.pyenv 폴더에 versions 에보면 내가 만든 가상 환경 이있다
+
+(pyenv가 관리하는 가상환경 root)
+(pyenv설치폴더0 /envs/<가상환경명>
+가상 환경환경별로 별도로 Python라이브러리를 설치
+
+가상환경을 설정할 폴더에
+서pyenv local fc-python
+
+pyenv list
+
+그리고 pip install ipython
+
+그다음 ipython 하면 코드시작
+
+pip install notebook
+
+jupyter notebook 더 쉽게 파이썬을 다룰 수있음
+
+print(type(val1)) 하면 출력결과가 조금 더 다르다
+
+변수는 대문자로 시작하지않는다 (쓰는곳은 다른대에 있다.)
+
+pep8이라는 곳에서 파이선의 규칙을 확인 할 수 있음 ex)들여쓰기는 공백 4칸을 권장합니다. 한줄은 79자까지 등등 _로 시작하는 변수는 내부적으로 실행되는 변수 뒤에붙는거 두개로 시작하는거 두개로시작,끝나는거 등등
+
+html은 규칙이 없다.
+
+
+print = input('') 입력받을 문자를 설명하는 메세지를 등록
+
+
+
+list1.copy()
+
+list1.copy
+
+튜플 1,
+
+x,y = y,x 하면 순서를 바꿀수있다.
+
+girlgroups = {
+... 'girlsday': korean, members,
+... 'redvelvet': korean, members,
+
+}
+
+korean = {
+    '민아' '혜리''소진',
+    '유라',    
+}
+
